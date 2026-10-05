@@ -4,7 +4,7 @@ import { ReelFeed } from './views/ReelFeed';
 import { AdminDashboard } from './views/AdminDashboard';
 import { SubscriptionModal } from './views/SubscriptionModal';
 import { supabase } from './lib/supabase';
-import { User, LogOut, Shield, Crown } from 'lucide-react';
+import { LogOut, Shield, Crown } from 'lucide-react';
 import { SubscriptionProvider } from './context/SubscriptionContext';
 
 function MainApp() {
