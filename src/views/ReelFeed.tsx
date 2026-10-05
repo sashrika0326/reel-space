@@ -182,7 +182,7 @@ export const ReelFeed: React.FC<{ onUpgradeClick?: () => void }> = ({ onUpgradeC
                 {hasAccess ? (
                   <>
                     <video
-                      ref={(el) => (videoRefs.current[reel.id] = el)}
+                      ref={(el) => {videoRefs.current[reel.id] = el}}
                       src={reel.video_url}
                       className="h-full w-full object-cover cursor-pointer"
                       loop={false}
